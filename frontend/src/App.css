@@ -1,0 +1,12 @@
+/* Custom cursor styles */
+.custom-cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    pointer-events: none; /* Prevent the cursor from blocking interactions */
+    z-index: 9999; /* Ensure it appears above all elements */
+    transform: translate(-50%, -50%);
+  }
+  
